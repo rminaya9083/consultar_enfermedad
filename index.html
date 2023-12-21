@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+  <title>W3.CSS</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">  
+</head>
+<body class="w3-pale-yellow">
+
+<div class="w3-bar w3-teal">
+  <a href="/consultar_enfermedad/index.html" class="w3-bar-item w3-button"><h4>Home</h4></a>
+  <div class="w3-dropdown-hover">
+    <button class="w3-button"><h4>Mantenimiento</h4></button>
+    <div class="w3-dropdown-content w3-bar-block w3-card-4">
+      <a href="/consultar_enfermedad/modelo/sintoma.php" class="w3-bar-item w3-button">Sintomas</a>
+      <a href="/consultar_enfermedad/modelo/enfermedad.php" class="w3-bar-item w3-button">Enfermedades</a>
+      <a href="/consultar_enfermedad/modelo/paciente.php" class="w3-bar-item w3-button">Pacientes</a>
+    </div>
+  </div>
+  <div class="w3-dropdown-hover">
+    <button class="w3-button"><h4>Proceso</h4></button>
+    <div class="w3-dropdown-content w3-bar-block w3-card-4">
+      <a href="/consultar_enfermedad/modelo/enfermedad_sintomas.php" class="w3-bar-item w3-button">Enfermedad y Sintomas</a>
+      <a href="/consultar_enfermedad/modelo/ocurrencia.php" class="w3-bar-item w3-button">Ocurrencias</a>
+      <a href="/consultar_enfermedad/modelo/consulta.php" class="w3-bar-item w3-button">Consulta</a>
+      <a href="/consultar_enfermedad/modelo/detalle_sintomas.php" class="w3-bar-item w3-button">Inf. Sintomas</a>
+      <a href="/consultar_enfermedad/insertar/identificar_enfermedad.php" class="w3-bar-item w3-button">Ident. Enfermedad</a>
+    </div>
+  </div>
+</div>
+
+<div class="w3-teal">
+  <div class="w3-container">
+    <h1 class="w3-center">CLINICA PONS</h1>
+  </div>
+</div>
+<div class="w3-container w3-pale-yellow contenedor-imagen">
+  <img src="/img/menu_principal.jpeg" class="w3-circle" style="width:100%">
+</div>
+<script>
+// Obtener la ruta actual de la página
+var rutaActual = window.location.pathname;
+
+// Verificar si estás en la página de inicio
+if (rutaActual === '/consultar_enfermedad/index.html') {
+  document.querySelector('.contenedor-imagen').style.display = 'block';
+} else {
+  document.querySelector('.contenedor-imagen').style.display = 'none';
+}
+</script>
+
+</body>
+</html>

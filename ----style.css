@@ -1,0 +1,131 @@
+*{
+    margin: 0;
+    padding: 0;
+    user-select: none;
+    color: rgb(136, 114, 114);
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+.btn{
+    position: absolute;
+    top: 50px;
+    left: 80px;
+    color: white;
+}
+
+.sidebar{
+    position: fixed;
+    width: 250px;
+    height: 100%;
+    left: 0px;
+    background: #1b1b1b;
+    color: white;    
+}
+
+.container mt-5{
+    margin-left: 80px;
+}
+
+#col-md-3{
+    margin-top: 200PX;
+}
+
+.sidebar .text{
+    color: white;
+    font-size: 25px;
+    font-weight: 600;
+    line-height: 65px;
+    text-align: center;
+    background: #1b1b1b;
+    letter-spacing: 1px;
+}
+
+nav ul{
+    background: #1b1b1b;
+    height: 100%;
+    width: 100%;
+    list-style: none;
+}
+
+nav ul li{
+    line-height: 60px;
+    border-bottom: 1px solid rgba(255,255,255,0.1);
+}
+
+nav ul li a{
+    color: white;
+    position: relative;
+    text-decoration: none;
+    font-size: 18x;
+    padding-left: 40px;
+    font-weight: 500;
+    display: block;
+    width: 100%;
+    border-left: 3px solid  transparent;
+}
+
+nav ul li.active a{
+    color: cyan;
+    background: #1e1e1e;
+    border-left-color: cyan;
+}
+
+nav ul li{
+    position: static;
+}
+
+nav ul li ul.reg-show.show{
+    display: block;
+}
+
+nav ul li ul.mant-show.show1{
+    display: block;
+}
+
+nav ul li ul.proc-show.show2{
+    display: block;
+}
+
+nav li ul{
+    display: none;
+}
+
+nav ul li ul{
+    line-height: 42px;
+    border-bottom: none;
+}
+
+nav ul li ul a{
+    font-size: 17px;
+    color: #e6e6e6;
+    padding-left: 80px;
+}
+
+nav ul li.active ul li a{
+    color: #e6e6e6;
+    background: #1b1b1b;
+    border-left-color: transparent;
+}
+
+/*nav ul li ul li a:hover{
+    color: cyan!important;
+    background: #1e1e1e!important;
+}*/
+
+nav ul li a span{
+    position: absolute;
+    top: 50%;
+    right: 20px;
+    transform: translateY(-50%);
+    transition: transform 0.4s;
+    font-size: 22px;
+}
+
+nav ul li a span.rotate{
+    transform: translateY(-50%)rotate(-180deg);
+}
+
+
+
+
