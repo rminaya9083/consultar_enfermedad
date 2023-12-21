@@ -13,7 +13,7 @@
     <?php include('../index.html');?>
     <div class="container my-5">
         <h2>Lista de Ocurrencia</h2>
-        <a class="btn btn-primary" href="/consultar_enfermedad/insertar/categoria_ocurrencia.php" role="button">Nueva ocurrencia</a>
+        <a class="btn btn-success" href="/consultar_enfermedad/insertar/categoria_ocurrencia.php" role="button">Nueva ocurrencia</a>
         <br>
         <table class="table">
             <thead>

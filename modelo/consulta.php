@@ -13,7 +13,7 @@
     <?php include('../index.html');?>
     <div class="container my-5">
         <h2>Lista de Consultas</h2>
-        <a class="btn btn-primary" href="/consultar_enfermedad/insertar/consulta.php" role="button">Nueva Consulta</a>
+        <a class="btn btn-success" href="/consultar_enfermedad/insertar/consulta.php" role="button">Nueva Consulta</a>
         <br>
         <table class="table">
             <thead>

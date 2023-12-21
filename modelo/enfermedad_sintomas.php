@@ -25,7 +25,7 @@ if (!$result) {
     <?php include('../index.html');?>
     <div class="container my-5">
         <h2>Lista de enfermedades y síntomas</h2>
-        <a class="btn btn-primary" href="/consultar_enfermedad/insertar/enfermedad_sintomas.php" role="button">Nueva sintomatologia</a>
+        <a class="btn btn-success" href="/consultar_enfermedad/insertar/enfermedad_sintomas.php" role="button">Nueva sintomatologia</a>
         <table class="table">
             <thead>
                 <tr>                    

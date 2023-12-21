@@ -18,7 +18,7 @@
     <?php include('../index.html');?>
     <div class="container my-5">
         <h2>Lista de pacientes</h2>
-        <a class="btn btn-primary" href="/consultar_enfermedad/insertar/paciente.php" role="button">Nuevo paciente</a>
+        <a class="btn btn-success" href="/consultar_enfermedad/insertar/paciente.php" role="button">Nuevo paciente</a>
         <br>
         <table class="table">
             <thead>
